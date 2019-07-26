@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/stylesheets/posts.css">
+    <title>Creat New Post</title>
+  </head>
+  <body>
+    <div class="container center">
+      <div class="title">Creat New Post</div>
+
+      <form action="/posts/new" method="post" class="form-container">
+        <div class="pretty-text">
+          Title: <input type="text" name="title">
+        </div>
+
+        <div class="pretty-text">
+          Text: <textarea name="text"></textarea>
+        </div>
+
+        <input type="submit" value="Create">
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body  {
+  min-height:100%;
+  background-image: url("/static/stylesheets/background.jpg"), linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3));
+  background-blend-mode: overlay;
+  background-size:cover
+}
+
+.pretty-text {
+  font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}​
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
